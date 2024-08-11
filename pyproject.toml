@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "swap"
+version = "0.1.0"
+description = ""
+authors = ["sempervent <jngrant9+git@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+textual = "^0.76.0"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
